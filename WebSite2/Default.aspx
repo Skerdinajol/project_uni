@@ -13,17 +13,20 @@
         <div>
             <div style="display: flex; align-items: center" class="mb-1">
                 <label class="mr-1">Username</label>
-                <asp:TextBox  ID="username" runat="server"></asp:TextBox><asp:RequiredFieldValidator ControlToValidate="username" ID="RequiredFieldValidator1" runat="server" ErrorMessage="Cannot be empty"></asp:RequiredFieldValidator>
+                <asp:TextBox  ID="username" runat="server"></asp:TextBox>
             </div>
+                <asp:RequiredFieldValidator ControlToValidate="username" ID="RequiredFieldValidator1" runat="server" ErrorMessage="Cannot be empty"></asp:RequiredFieldValidator>
             <div>
-                <label class="mr-1">Password</label>
-                <asp:TextBox ID="password" runat="server" TextMode="Password"></asp:TextBox><asp:RequiredFieldValidator ControlToValidate="password" ID="RequiredFieldValidator2" runat="server" ErrorMessage="Cannot be empty"></asp:RequiredFieldValidator>
+                <label class="mr-1 mt-1">Password</label>
+                <asp:TextBox ID="password" runat="server" TextMode="Password"></asp:TextBox>
+                <asp:RequiredFieldValidator ControlToValidate="password" ID="RequiredFieldValidator2" runat="server" ErrorMessage="Cannot be empty"></asp:RequiredFieldValidator>
             </div>
             <div>
                 <asp:Button CssClass="full-width primary" ID="Button1" runat="server" Text="Log In" OnClick="LogIn_Click" />
+        <asp:Label ID="Label1" runat="server" Text=" "></asp:Label>
             </div>
         </div>
-        <asp:Label ID="Label1" runat="server" Text=" "></asp:Label>
+        <br />
     </form>
 </body>
 </html>

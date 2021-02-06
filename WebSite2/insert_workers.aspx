@@ -10,7 +10,7 @@
 </head>
 <body>
     <form id="form1" runat="server" style="padding: 40px">
-        <h1 class="headers" style="text-align: center">Insert Worker</h1>
+        <h1 class="headers" style="text-align: center">Add Worker</h1>
         <div class="flex-center" style="flex-direction: column">
 
         <div>

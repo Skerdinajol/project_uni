@@ -18,7 +18,8 @@
             </div>
             <div class="mt-1">
                 <asp:Label runat="server" Text="Password" CssClass="mr-1"></asp:Label>
-                <asp:TextBox ID="password" runat="server"></asp:TextBox><asp:RequiredFieldValidator ValidationGroup="1" ControlToValidate="password" ID="RequiredFieldValidator2" runat="server" ErrorMessage="Cannot be empty"></asp:RequiredFieldValidator>
+                <asp:TextBox ID="password" runat="server" TextMode="Password"></asp:TextBox>
+                <asp:RequiredFieldValidator ValidationGroup="1" ControlToValidate="password" ID="RequiredFieldValidator2" runat="server" ErrorMessage="Cannot be empty"></asp:RequiredFieldValidator>
             </div>
             <div class="mt-2 flex-center">
                 <asp:Button ValidationGroup="1" ID="Button1" CssClass="mr-1" runat="server" Text="Krijo" OnClick="Button1_Click" />
