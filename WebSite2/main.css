@@ -1,0 +1,186 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+body {
+
+}
+
+.action-btn {
+    background: #1DB954;
+    border-radius: 12px;
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+}
+
+.action-btn.delete{
+    background: red;
+}
+
+.headers {
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
+    font-size: 45px;
+    padding: 0;
+    margin:0;
+    margin-bottom: 30px;
+}
+
+.headers-label {
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    outline: none;
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all .3s;
+
+}
+
+input[type="submit"]:hover {
+   background: #cecece;
+}
+.mt-2 {
+    margin-top: 30px;
+}
+
+.mt-1 {
+    margin-top: 10px;
+}
+
+.mb-1 {
+    margin-bottom: 10px;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    border: none;
+    background: #f7f6f6;
+    padding: 11px 19px;
+    border-radius: 10px;
+}
+
+.mr-1 {
+    margin-right: 10px;
+}
+
+.shto-punonjes {
+    background-image: url(../icons8-waiter-96.png);
+    height: 235px;
+    width: 228px;
+    background-size: cover;
+    border-radius: 22px;
+    box-shadow: 0px 8px 15px rgba(0,0,0, 0.1);
+    margin-bottom: 20px;
+}
+
+.shto-produkt {
+    background-image: url(../icons8-martini-glass-96.png);
+    height: 235px;
+    width: 228px;
+    background-size: cover;
+    border-radius: 22px;
+    box-shadow: 0px 8px 15px rgba(0,0,0, 0.1);
+    margin-bottom: 20px;
+}
+
+.shto-user {
+    background-image: url(../icons8-person-92.png);
+    height: 235px;
+    width: 228px;
+    background-size: cover;
+    border-radius: 22px;
+    box-shadow: 0px 8px 15px rgba(0,0,0, 0.1);
+    margin-bottom: 20px;
+}
+
+.logout {
+    background-image: url(../icons8-logout-rounded-left-96.png);
+    height: 235px;
+    width: 228px;
+    background-size: cover;
+    border-radius: 22px;
+    box-shadow: 0px 8px 15px rgba(0,0,0, 0.1);
+    margin-bottom: 20px;
+}
+
+.action-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.actions-container {
+    display: flex;
+    align-content: center;
+    height: 70vh;
+    justify-content: space-around;
+}
+
+.aspNetHidden {
+    display: none;
+}
+
+.action-bkg {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)), url(https://images.unsplash.com/photo-1552566626-52f8b828add9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.login-bg {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.primary {
+    background: #4CAF50;
+    color: white;
+}
+
+.hiddencols {
+    display: none;
+}
